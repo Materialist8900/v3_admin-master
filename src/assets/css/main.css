@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body,
+#app {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+/* home里content盒子的样式 */
+.content-box {
+  position: absolute;
+  left: 220px;
+  right: 0;
+  top: 70px;
+  bottom: 0;
+  padding-bottom: 30px;
+  -webkit-transition: left 0.3s ease-in-out;
+  transition: left 0.3s ease-in-out;
+  background: #f0f0f0;
+}
+
+.content {
+  width: auto;
+  height: 100%;
+  padding: 10px;
+  overflow-y: scroll;
+  box-sizing: border-box;
+}
+
+.content-collapse {
+  left: 65px;
+}
+[class*=' el-icon-'],
+[class^='el-icon-'] {
+  font-style: normal;
+  font-weight: 400;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  vertical-align: baseline;
+  display: inline-block;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.el-sub-menu [class^='el-icon-'] {
+  vertical-align: middle;
+  margin-right: 5px;
+  width: 24px;
+  text-align: center;
+  font-size: 18px;
+}
+
+[hidden] {
+  display: none !important;
+}
